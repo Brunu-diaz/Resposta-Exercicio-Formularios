@@ -11,8 +11,14 @@
             font-family: 'Roboto', sans-serif;
             font-size: 1.5rem;
             /* CORREÇÃO: CENTRALIZA TODO O TEXTO DO BODY POR PADRÃO */
-            text-align: center; 
+            text-align: center;
         }
+        
+        .imagem-noticia {
+            width: 500px;
+            border-radius: 0px;
+        }
+
         img {
             background-color: bl;
             width: 5rem;
@@ -21,9 +27,43 @@
             margin-right: auto;
             border-radius: 10px;
         }
+
+        section p {
+            line-height: 1.6;
+            margin-bottom: 1em;
+            text-indent: 3rem;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 40px auto; 
+            padding: 0 20px;
+            text-align: justify; 
+        }
+
+        .hr {
+            width: 5000;
+        }
     </style>
 </head>
 <body>
-    <a href="../index.html"><img src="../Imagens/Logo Playstation.png" alt="Logo Playstation"></a>
+    <header>
+        <section>
+            <nav class="galeria">
+                <a href="../index.html"><img src="../Imagens/Logo Playstation.png" alt="Logo Playstation"></a>
+            </nav>
+        </section>
+        <hr><br>
+    </header>
+    <main>
+        <section>
+                <img src="../Imagens/catalogo play.png" alt="Catalogo Playstation" class="imagem-noticia"><br>
+                <h4 style="text-align:center">Novidades do Catálogo de Jogos PlayStation Plus de novembro: Grand Theft Auto V, Pacific Drive, Still Wakes the Deep e muito mais</h4>
+                <p class="texto-descricao">Neste mês, mergulhe no submundo do crime da cidade de Los Santos em Grand Theft Auto V, passeie pelo surreal e selvagem Noroeste Pacífico em Pacific Drive ou lute pela sua sobrevivência em uma plataforma de petróleo instável em Still Wakes the Deep. Todos esses títulos e muitos outros estão disponíveis na seleção de novembro do Catálogo de Jogos PlayStation Plus*. Enquanto isso, Tomb Raider: Anniversary traz a aventura original de Lara para o PlayStation Plus Deluxe. Todos esses títulos estarão disponíveis para jogar em 18 de novembro.</p>
+                <img src="../Imagens/reddead red.png" alt="red" class="imagem-noticia">
+                <p style="text-align:center;font-size:1rem;font-weight:bolder;">Red Dead Redemption | PS5, PS4</p>
+                 Quando agentes federais ameaçam sua família, o ex fora da lei John Marston é forçado a caçar a gangue de criminosos que um dia já foram seus amigos. Vivencie a jornada de Marston pelo vasto Oeste Americano e pelo México conforme ele luta para enterrar seu passado coberto de sangue, no aclamado título que antecede o sucesso de 2018, Red Dead Redemption 2.</p>
+        </section>
+    </main>
 </body>
 </html>
